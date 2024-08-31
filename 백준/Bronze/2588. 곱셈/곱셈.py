@@ -1,3 +1,4 @@
+# 내 코드
 a1 = int(input())
 a2 = int(input())
 
