@@ -169,3 +169,4 @@ for x in*b[2::-1],b:print(int(a)*int(x))
 1416 <br>
 181720
 
+<br>
