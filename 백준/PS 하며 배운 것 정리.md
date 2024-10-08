@@ -76,7 +76,8 @@ import sys
 input = sys.stdin.read()
 print(input)
 
-input
+# 공백을 기준으로 나누어 리스트의 요소로 넣음('\n' 포함하지 않음)
+data = input.splitlines()
 ```
 > Hello<Br>
 My name<br>
