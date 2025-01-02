@@ -71,8 +71,8 @@ print(*array)
 # 숏코딩 분석
 
 ```py
-for x in range(j - i + 1):      
-    array[i + x - 1] = k                   
+for x in range(i - 1, j):          
+    array[x] = k                 
 ```
 <br>
 
