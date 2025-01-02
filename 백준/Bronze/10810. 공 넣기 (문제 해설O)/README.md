@@ -60,9 +60,8 @@ for _ in range(m):
 
 
 ```py
-for x in range(j - i + 1):          # (1 ~ 2) : 3번 반복     => for x in range(2 - 1 + 1)           => for x in range(j - i + 1) = for x in range(j - (i - 1))
-    array[i + x - 1]                         # 인덱스 0 과 1
-
+for x in range(i - 1, j):          
+    array[x] = k
 print(*array)                     
 ```
 
@@ -73,7 +72,7 @@ print(*array)
 
 ```py
 for x in range(j - i + 1):      
-    array[i + x - 1]                        
+    array[i + x - 1] = k                   
 ```
 <br>
 
